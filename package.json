@@ -27,7 +27,8 @@
     "gulp-util": "^2.2.14",
     "plugin-error": "^0.1.2",
     "rimraf": "^2.2.8",
-    "through2": "^0.4.2"
+    "through2": "^0.4.2",
+    "vinyl": "^2.1.0"
   },
   "devDependencies": {
     "mocha": "^1.19.0",
