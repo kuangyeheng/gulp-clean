@@ -1,5 +1,5 @@
 {
-  "name": "gulp-clean",
+  "name": "gulp-clean-fix",
   "version": "0.3.2",
   "description": "A gulp plugin for removing files and folders.",
   "keywords": [
