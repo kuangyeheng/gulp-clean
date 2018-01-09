@@ -1,6 +1,7 @@
 Deprecated in favor of [https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)
 
-# [gulp](https://github.com/wearefractal/gulp)-clean [![Build Status](https://secure.travis-ci.org/peter-vilja/gulp-clean.png?branch=master)](https://travis-ci.org/peter-vilja/gulp-clean) [![NPM version](https://badge.fury.io/js/gulp-clean.png)](http://badge.fury.io/js/gulp-clean)
+Deprecated gulp-util
+# [gulp](https://github.com/wearefractal/gulp)-clean-fix [![Build Status](https://secure.travis-ci.org/peter-vilja/gulp-clean.png?branch=master)](https://travis-ci.org/peter-vilja/gulp-clean) [![NPM version](https://badge.fury.io/js/gulp-clean.png)](http://badge.fury.io/js/gulp-clean)
 
 > Removes files and folders.
 
@@ -9,14 +10,14 @@ Deprecated in favor of [https://github.com/gulpjs/gulp/blob/master/docs/recipes/
 Install with [npm](https://npmjs.org/package/gulp-clean).
 
 ```
-npm install --save-dev gulp-clean
+npm install --save-dev gulp-clean-fix
 ```
 
 ## Examples
 
 ```js
 var gulp = require('gulp');
-var clean = require('gulp-clean');
+var clean = require('gulp-clean-fix');
 
 gulp.task('default', function () {
 	return gulp.src('app/tmp', {read: false})
@@ -27,7 +28,7 @@ Option read:false prevents gulp from reading the contents of the file and makes 
 
 ```js
 var gulp = require('gulp');
-var clean = require('gulp-clean');
+var clean = require('gulp-clean-fix');
 
 gulp.task('default', function () {
 	return gulp.src('app/tmp/index.js')
@@ -42,7 +43,7 @@ Clean as a dependency:
 
 ```js
 var gulp = require('gulp');
-var clean = require('gulp-clean');
+var clean = require('gulp-clean-fix');
 
 gulp.task('clean-scripts', function () {
   return gulp.src('app/tmp/*.js', {read: false})
