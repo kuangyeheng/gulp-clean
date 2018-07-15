@@ -6,9 +6,7 @@ var utils = require('./utils');
 var clean = require('./index');
 var expect = require('chai').expect;
 
-function noop() {
-  var a = "lalala";
-}
+function noop() {}
 
 describe('gulp-clean plugin', function () {
 
